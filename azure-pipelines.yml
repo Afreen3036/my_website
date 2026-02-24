@@ -2,7 +2,7 @@ trigger:
 - main
 
 variables:
-- group: VM-Secrets  # This links the Library you just made
+- group: Production-VM  # This links the Library you just made
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -12,7 +12,7 @@ steps:
   inputs:
     knownHostsEntry: '$(VM_IP)' 
     sshPublicKey: 'paste_your_public_key_here'
-    sshKeySecureFile: 'not_needed_if_using_variable'
+    SSH_PRIVATE_KEY: 'not_needed_if_using_variable'
     # Alternatively, use a script to handle the SSH transfer:
 
 - script: |
