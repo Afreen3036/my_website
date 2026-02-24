@@ -1,0 +1,22 @@
+trigger:
+- main
+
+variables:
+- group: VM-Secrets  # This links the Library you just made
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: InstallSSHKey@0
+  inputs:
+    knownHostsEntry: '$(VM_IP)' 
+    sshPublicKey: 'paste_your_public_key_here'
+    sshKeySecureFile: 'not_needed_if_using_variable'
+    # Alternatively, use a script to handle the SSH transfer:
+
+- script: |
+    echo "$(SSH_PRIVATE_KEY)" > deploy_key
+    chmod 600 deploy_key
+    scp -i deploy_key -o StrictHostKeyChecking=no index.html $(VM_USER)@$(VM_IP):/var/www/html/
+  displayName: 'Deploy to VM via SCP'
