@@ -1,0 +1,10 @@
+{
+  "description": {
+    "language": "logicappnet8",
+    "extensions": [ ".dll" ],
+    "defaultExecutablePath": "dotnet",
+    "defaultWorkerPath": "Microsoft.Azure.Workflows.Functions.CustomCodeNetFxWorker.dll",
+    "workerIndexing": "false",
+    "canUsePlaceholder": true
+  }
+}

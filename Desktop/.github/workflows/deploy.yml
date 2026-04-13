@@ -1,22 +1,22 @@
-name: Push to VM Pipeline
+name: Deploy Website
 
 on:
   push:
     branches:
-      - main  # Runs every time you push to the main branch
+      - main  # Trigger on every push to the main branch
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Deploy to Server
+      - name: Deploy to VM via SCP
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.VM_IP }}
-          username: ${{ secrets.VM_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "index.html" # The file we created earlier
-          target: "/var/www/html" # The Nginx web folder
+          username: ${{ secrets.VM_USERNAME }}
+          key: ${{ secrets.VM_SSH_KEY }}
+          source: "index.html" # Add other files/folders here if needed
+          target: "/var/www/html"

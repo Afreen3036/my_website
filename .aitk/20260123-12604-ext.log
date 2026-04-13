@@ -1,0 +1,5 @@
+[2026-01-23T18:07:16.455Z] [INFO] Install Sparse Package for AI Toolkit Output: Searching for old packages matching '*AIToolkit.Inference.Agent*'...
+No packages found matching '*AIToolkit.Inference.Agent*'.
+Installed AIToolkit.Inference.Agent_1.1.0.0_x64.msix.
+
+[2026-01-23T18:07:17.954Z] [INFO] Command registration.

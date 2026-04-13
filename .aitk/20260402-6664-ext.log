@@ -1,0 +1,10 @@
+[2026-04-02T17:52:19.746Z] [DEBUG] [FoundryRemoteTree] Activating Foundry extension...
+[2026-04-02T17:52:19.756Z] [INFO] Command registration.
+[2026-04-02T17:52:21.902Z] [DEBUG] [FoundrySkill] Running: skills list (args: list -g -a github-copilot)
+[2026-04-02T17:52:22.481Z] [DEBUG] [FoundrySkill] skills list stdout: [1mGlobal Skills[0m
+
+[36mmicrosoft-foundry[0m [38;5;102m~\.agents\skills\microsoft-foundry[0m
+  [38;5;102mAgents:[0m [33mnot linked[0m
+[2026-04-02T17:52:22.483Z] [DEBUG] [FoundrySkill] Skipping check — last check was 0m ago (interval: 60m).
+[2026-04-02T17:52:22.648Z] [DEBUG] [FoundryRemoteTree] Foundry provider activated
+[2026-04-02T17:52:22.482Z] [DEBUG] [FoundrySkill] skills list exited with code 0

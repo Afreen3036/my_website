@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ServiceOperationIdMissing" xml:space="preserve">
+    <value>Can't find the 'operationId' property.</value>
+  </data>
+  <data name="ServiceOperationRequiredParameterMissing" xml:space="preserve">
+    <value>The required value for parameter '{2}' is missing from operation '{1}' for the service provider-based connector named '{0}'.</value>
+  </data>
+  <data name="ServiceOperationNotSupported" xml:space="preserve">
+    <value>The operation '{1}' isn't supported for the service provider-based connector named '{0}'. The available supported operations are '{2}'.</value>
+  </data>
+  <data name="DecodingAsBytesNotSupportedForContentTypeWithoutContent" xml:space="preserve">
+    <value>Decoding as bytes isn't supported for a content envelope with the following type: '{0}'.</value>
+  </data>
+  <data name="ServiceOperation.Context.Description" xml:space="preserve">
+    <value>The context for the service provider-based connector operation.</value>
+  </data>
+  <data name="ServiceOperation.ContextId.Description" xml:space="preserve">
+    <value>The context ID for the service provider-based connector operation.</value>
+  </data>
+  <data name="ServiceOperation.ContextId.Title" xml:space="preserve">
+    <value>Context ID</value>
+  </data>
+  <data name="ServiceOperation.ContextId.NotFound" xml:space="preserve">
+    <value>Can't find the context for the service provider-based connector.</value>
+  </data>
+  <data name="ServiceOperationInvalidSourceType" xml:space="preserve">
+    <value>The provided source with type '{0}' isn't supported for replication. Only Azure Event Hubs events and Azure Service Bus messages are supported.</value>
+  </data>
+  <data name="ServiceProviderTriggerStateParsingError" xml:space="preserve">
+    <value>Can't parse the service provider-based trigger state. Error: '{0}'</value>
+  </data>
+  <data name="ConflictingServiceProviderTriggerInputParameter" xml:space="preserve">
+    <value>In the trigger named '{1}', the provided input parameter '{0}' is a duplicate.</value>
+  </data>
+  <data name="AadTenantDescription" xml:space="preserve">
+    <value>Active Directory tenant</value>
+  </data>
+  <data name="AadTenantToolTip" xml:space="preserve">
+    <value>Tenant</value>
+  </data>
+  <data name="AadAuthorityDescription" xml:space="preserve">
+    <value>Active Directory authority</value>
+  </data>
+  <data name="AadAuthorityToolTip" xml:space="preserve">
+    <value>Authority</value>
+  </data>
+  <data name="AadAudienceDescription" xml:space="preserve">
+    <value>Active Directory audience</value>
+  </data>
+  <data name="AadAudienceToolTip" xml:space="preserve">
+    <value>Audience</value>
+  </data>
+  <data name="AadClientSecretDescription" xml:space="preserve">
+    <value>Active Directory client secret</value>
+  </data>
+  <data name="AadClientSecretToolTip" xml:space="preserve">
+    <value>Client secret</value>
+  </data>
+  <data name="AadClientIdDescription" xml:space="preserve">
+    <value>Active Directory client ID</value>
+  </data>
+  <data name="AadClientIdToolTip" xml:space="preserve">
+    <value>Client ID</value>
+  </data>
+  <data name="AadPfxDescription" xml:space="preserve">
+    <value>Active Directory pfx</value>
+  </data>
+  <data name="AadPfxToolTip" xml:space="preserve">
+    <value>Pfx</value>
+  </data>
+  <data name="AadPasswordDescription" xml:space="preserve">
+    <value>Active Directory password</value>
+  </data>
+  <data name="AadPasswordToolTip" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="AadCredentialTypeDescription" xml:space="preserve">
+    <value>Active Directory credential type</value>
+  </data>
+  <data name="AadCredentialTypeToolTip" xml:space="preserve">
+    <value>Credential type</value>
+  </data>
+  <data name="AadType" xml:space="preserve">
+    <value>Active Directory OAuth</value>
+  </data>
+  <data name="ManagedIdentityType" xml:space="preserve">
+    <value>Managed identity</value>
+  </data>
+  <data name="InvalidConnectionStringError" xml:space="preserve">
+    <value>The connection string isn't valid to use with the operation '{1}' for the service provider-based connector named '{0}'.</value>
+  </data>
+  <data name="ServiceOperationMultipleAuthenticationNotSupported" xml:space="preserve">
+    <value>The connection parameter '{2}' can't exist at the same time as '{3}' in the operation '{1}' for the service provider-based connector named '{0}''.</value>
+  </data>
+  <data name="ExtractedFileExistsError" xml:space="preserve">
+    <value>The file with archive path '{0}' already exists in the remote location. Use a value other than 'Fail' for the 'Overwrite existing files' property.</value>
+  </data>
+  <data name="ZipFileStreamParsingError" xml:space="preserve">
+    <value>Can't parse the provided ZIP file stream. Provide a valid ZIP compressed archive. Error: '{0}'</value>
+  </data>
+  <data name="ZipFileStreamReadError" xml:space="preserve">
+    <value>Can't access the stream for ZIP archive entry. Error: '{0}'</value>
+  </data>
+  <data name="ServiceOperationInvalidBlobURI" xml:space="preserve">
+    <value>Check the operation named '{1}' for the service provider-based connector named '{0}'. The required parameter named '{2}' specifies an invalid blob URI. This value must contain at least two segments: a container name and a file with the format 'container/file' or 'container/folder/file'.</value>
+  </data>
+</root>

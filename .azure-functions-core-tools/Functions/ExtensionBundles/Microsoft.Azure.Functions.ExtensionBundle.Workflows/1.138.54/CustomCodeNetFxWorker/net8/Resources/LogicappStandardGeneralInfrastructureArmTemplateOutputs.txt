@@ -1,0 +1,10 @@
+{
+    "logicAppSystemAssignedIdentityTenantId": {
+      "type": "string",
+      "value": "[subscription().tenantid]"
+    },
+    "logicAppSystemAssignedIdentityObjectId": {
+      "type": "string",
+      "value": "[reference(resourceId('Microsoft.Web/sites', parameters('name')),'2019-08-01', 'full').identity.principalId]"
+    }
+}

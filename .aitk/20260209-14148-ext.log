@@ -1,0 +1,6 @@
+[2026-02-09T19:04:53.502Z] [INFO] Install Sparse Package for AI Toolkit Output: Searching for old packages matching '*AIToolkit.Inference.Agent*'...
+Removing package: AIToolkit.Inference.Agent_1.1.0.0_x64__8wekyb3d8bbwe.
+Successfully removed: AIToolkit.Inference.Agent_1.1.0.0_x64__8wekyb3d8bbwe.
+Installed AIToolkit.Inference.Agent_1.1.0.0_x64.msix.
+
+[2026-02-09T19:04:55.925Z] [INFO] Command registration.

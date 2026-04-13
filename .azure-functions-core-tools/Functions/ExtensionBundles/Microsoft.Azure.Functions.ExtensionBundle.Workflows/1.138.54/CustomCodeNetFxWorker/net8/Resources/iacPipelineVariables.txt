@@ -1,0 +1,30 @@
+# IaC variables
+
+variables:
+
+  # Your Azure service connection
+  serviceConnectionName: ''
+
+  # Logic App deploy environment
+  logicAppEnvironment: 'dev'
+
+  # Subscription
+  subscriptionId: 'TargetSubscriptionId'
+
+  # Resource Group location
+  resourceGroupLocation: 'TargetLocation'
+
+  # Resource Group Name
+  resourceGroupName: 'TargetResourceGroupName'
+
+  # Storage account name
+  storageAccountName: 'TargetStorageAccountName'
+
+  # App service plan
+  appServicePlanName: 'TargetAppServicePlanName'
+
+  #  Logic App
+  logicAppName: 'TargetLogicAppName'
+
+  # Project artifacts
+  logicAppIaCArtifactName: 'TargetLogicAppName_publish_artifact_iac'

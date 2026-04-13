@@ -1,0 +1,116 @@
+[2026-03-30T18:53:52.728Z] [INFO] Install Sparse Package for AI Toolkit Output: Searching for old packages matching '*AIToolkit.Inference.Agent*'...
+Removing package: AIToolkit.Inference.Agent_1.1.0.0_x64__8wekyb3d8bbwe.
+Successfully removed: AIToolkit.Inference.Agent_1.1.0.0_x64__8wekyb3d8bbwe.
+Installed AIToolkit.Inference.Agent_1.1.0.0_x64.msix.
+
+[2026-03-30T18:54:30.864Z] [DEBUG] [FoundryRemoteTree] Activating Foundry extension...
+[2026-03-30T18:54:30.875Z] [INFO] Command registration.
+[2026-03-30T18:54:35.073Z] [DEBUG] [FoundrySkill] Running: skills list (args: list -g -a github-copilot)
+[2026-03-30T18:54:35.923Z] [DEBUG] [FoundryRemoteTree] Foundry provider activated
+[2026-03-30T18:54:36.502Z] [DEBUG] [FoundrySkill] skills list stdout: [38;5;102mNo global skills found.[0m
+[38;5;102mTry listing project skills without -g[0m
+[2026-03-30T18:54:36.502Z] [DEBUG] [FoundrySkill] skills list exited with code 0
+[2026-03-30T18:54:36.503Z] [INFO] [FoundrySkill] Skill 'microsoft-foundry' not found. Installing...
+[2026-03-30T18:54:36.506Z] [DEBUG] [FoundrySkill] Running: skills add (args: add https://github.com/microsoft/azure-skills/tree/main/.github/plugins/azure-skills/skills/microsoft-foundry -a github-copilot -g -y)
+[2026-03-30T18:55:13.307Z] [DEBUG] [FoundrySkill] skills add stdout: [38;5;250m███████╗██╗  ██╗██╗██╗     ██╗     ███████╗[0m
+[38;5;248m██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝[0m
+[38;5;245m███████╗█████╔╝ ██║██║     ██║     ███████╗[0m
+[38;5;243m╚════██║██╔═██╗ ██║██║     ██║     ╚════██║[0m
+[38;5;240m███████║██║  ██╗██║███████╗███████╗███████║[0m
+[38;5;238m╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝[0m
+
+[90mT[39m  [46m[30m skills [39m[49m
+[90m|[39m
+[90m|[39m  [2mTip: use the --yes (-y) and --global (-g) flags to install without prompts.[22m
+[?25l[90m|[39m
+[32mo[39m  Source: https://github.com/microsoft/azure-skills.git @ [33mmain[39m (.github/plugins/azure-skills/skills/microsoft-foundry)
+[?25h[?25l[90m|[39m
+[35m•[39m  Cloning repository[999D[J[35mo[39m  Cloning repository[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[35m•[39m  Cloning repository[999D[J[35mo[39m  Cloning repository[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[35m•[39m  Cloning repository.[999D[J[35mo[39m  Cloning repository.[999D[J[35mO[39m  Cloning repository.[999D[J[35m0[39m  Cloning repository.[999D[J[35m•[39m  Cloning repository.[999D[J[35mo[39m  Cloning repository.[999D[J[35mO[39m  Cloning repository.[999D[J[35m0[39m  Cloning repository.[999D[J[35m•[39m  Cloning repository..[999D[J[35mo[39m  Cloning repository..[999D[J[35mO[39m  Cloning repository..[999D[J[35m0[39m  Cloning repository..[999D[J[35m•[39m  Cloning repository..[999D[J[35mo[39m  Cloning repository..[999D[J[35mO[39m  Cloning repository..[999D[J[35m0[39m  Cloning repository..[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository...[999D[J[35m0[39m  Cloning repository...[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository...[999D[J[35m0[39m  Cloning repository...[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[35m•[39m  Cloning repository[999D[J[35mo[39m  Cloning repository[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[35m•[39m  Cloning repository[999D[J[35mo[39m  Cloning repository.[999D[J[35mO[39m  Cloning repository.[999D[J[35m0[39m  Cloning repository.[999D[J[35m•[39m  Cloning repository.[999D[J[35mo[39m  Cloning repository.[999D[J[35mO[39m  Cloning repository.[999D[J[35m0[39m  Cloning repository.[999D[J[35m•[39m  Cloning repository.[999D[J[35mo[39m  Cloning repository..[999D[J[35mO[39m  Cloning repository..[999D[J[35m0[39m  Cloning repository..[999D[J[35m•[39m  Cloning repository..[999D[J[35mo[39m  Cloning repository..[999D[J[35mO[39m  Cloning repository..[999D[J[35m0[39m  Cloning repository..[999D[J[35m•[39m  Cloning repository..[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository...[999D[J[35m0[39m  Cloning repository...[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository...[999D[J[35m0[39m  Cloning repository...[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[32mo[39m  Repository cloned
+[?25h[?25l[90m|[39m
+[999D[J[32mo[39m  Found [32m1[39m skill
+[?25h[90m|[39m
+[34m•[39m  Skill: [36mmicrosoft-foundry[39m
+[90m|[39m
+[90m|[39m  [2mDeploy, evaluate, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization, prompt optimizer workflows, agent.yaml, dataset curation from traces. USE FOR: deploy agent to Foundry, hosted agent, create agent, invoke agent, evaluate agent, run batch eval, optimize prompt, improve prompt, prompt optimization, prompt optimizer, improve agent instructions, optimize agent instructions, optimize system prompt, deploy model, Foundry project, RBAC, role assignment, permissions, quota, capacity, region, troubleshoot agent, deployment failure, create dataset from traces, dataset versioning, eval trending, create AI Services, Cognitive Services, create Foundry resource, provision resource, knowledge index, agent monitoring, customize deployment, onboard, availability. DO NOT USE FOR: Azure Functions, App Service, general Azure deploy (use azure-deploy), general Azure prep (use azure-prepare).[22m
+
+[90m|[39m
+[32mo[39m  [0mInstallation Summary[0m [90m---------------+[39m
+[90m|[39m  [2m[22m                                    [90m|[39m
+[90m|[39m  [2m[36m~\.agents\skills\microsoft-foundry[39m[22m  [90m|[39m
+[90m|[39m  [2m  [32muniversal:[39m GitHub Copilot[22m         [90m|[39m
+[90m|[39m  [2m[22m                                    [90m|[39m
+[90m+--------------------------------------+[39m
+[90m|[39m
+[32mo[39m  [0mSecurity Risk Assessments[0m [90m---------------------------------------+[39m
+[90m|[39m  [2m[22m                                                                 [90m|[39m
+[90m|[39m  [2m                   [2mGen[22m[2m               [2mSocket[22m[2m            [2mSnyk[22m[2m[22m      [90m|[39m
+[90m|[39m  [2m[36mmicrosoft-foundry[39m  [32mSafe[39m              [32m0 alerts[39m          [33mMed Risk[39m[22m  [90m|[39m
+[90m|[39m  [2m[22m                                                                 [90m|[39m
+[90m|[39m  [2m[2mDetails:[22m[2m [2mhttps://skills.sh/microsoft/azure-skills[22m[2m[22m                [90m|[39m
+[90m|[39m  [2m[22m                                                                 [90m|[39m
+[90m+-------------------------------------------------------------------+[39m
+[?25l[90m|[39m
+[999D[J[35m•[39m  Installing skills[999D[J[32mo[39m  Installation complete
+[?25h
+[90m|[39m
+[32mo[39m  [0m[32mInstalled 1 skill[39m[0m [90m--------------------+[39m
+[90m|[39m  [2m[22m                                      [90m|[39m
+[90m|[39m  [2m[32m✓[39m ~\.agents\skills\microsoft-foundry[22m  [90m|[39m
+[90m|[39m  [2m  [32muniversal:[39m GitHub Copilot[22m           [90m|[39m
+[90m|[39m  [2m[22m                                      [90m|[39m
+[90m+----------------------------------------+[39m
+
+[90m|[39m
+[90m—[39m  [32mDone![39m[2m  Review skills before use; they run with full agent permissions.[22m
+[2026-03-30T18:55:13.308Z] [DEBUG] [FoundrySkill] skills add exited with code 0
+[2026-03-30T18:55:13.308Z] [INFO] [FoundrySkill] skills add completed successfully.
+[2026-03-30T18:55:13.308Z] [DEBUG] [FoundrySkill] skills add stdout: [38;5;250m███████╗██╗  ██╗██╗██╗     ██╗     ███████╗[0m
+[38;5;248m██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝[0m
+[38;5;245m███████╗█████╔╝ ██║██║     ██║     ███████╗[0m
+[38;5;243m╚════██║██╔═██╗ ██║██║     ██║     ╚════██║[0m
+[38;5;240m███████║██║  ██╗██║███████╗███████╗███████║[0m
+[38;5;238m╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝[0m
+
+[90mT[39m  [46m[30m skills [39m[49m
+[90m|[39m
+[90m|[39m  [2mTip: use the --yes (-y) and --global (-g) flags to install without prompts.[22m
+[?25l[90m|[39m
+[32mo[39m  Source: https://github.com/microsoft/azure-skills.git @ [33mmain[39m (.github/plugins/azure-skills/skills/microsoft-foundry)
+[?25h[?25l[90m|[39m
+[35m•[39m  Cloning repository[999D[J[35mo[39m  Cloning repository[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[35m•[39m  Cloning repository[999D[J[35mo[39m  Cloning repository[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[35m•[39m  Cloning repository.[999D[J[35mo[39m  Cloning repository.[999D[J[35mO[39m  Cloning repository.[999D[J[35m0[39m  Cloning repository.[999D[J[35m•[39m  Cloning repository.[999D[J[35mo[39m  Cloning repository.[999D[J[35mO[39m  Cloning repository.[999D[J[35m0[39m  Cloning repository.[999D[J[35m•[39m  Cloning repository..[999D[J[35mo[39m  Cloning repository..[999D[J[35mO[39m  Cloning repository..[999D[J[35m0[39m  Cloning repository..[999D[J[35m•[39m  Cloning repository..[999D[J[35mo[39m  Cloning repository..[999D[J[35mO[39m  Cloning repository..[999D[J[35m0[39m  Cloning repository..[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository...[999D[J[35m0[39m  Cloning repository...[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository...[999D[J[35m0[39m  Cloning repository...[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[35m•[39m  Cloning repository[999D[J[35mo[39m  Cloning repository[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[35m•[39m  Cloning repository[999D[J[35mo[39m  Cloning repository.[999D[J[35mO[39m  Cloning repository.[999D[J[35m0[39m  Cloning repository.[999D[J[35m•[39m  Cloning repository.[999D[J[35mo[39m  Cloning repository.[999D[J[35mO[39m  Cloning repository.[999D[J[35m0[39m  Cloning repository.[999D[J[35m•[39m  Cloning repository.[999D[J[35mo[39m  Cloning repository..[999D[J[35mO[39m  Cloning repository..[999D[J[35m0[39m  Cloning repository..[999D[J[35m•[39m  Cloning repository..[999D[J[35mo[39m  Cloning repository..[999D[J[35mO[39m  Cloning repository..[999D[J[35m0[39m  Cloning repository..[999D[J[35m•[39m  Cloning repository..[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository...[999D[J[35m0[39m  Cloning repository...[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository...[999D[J[35m0[39m  Cloning repository...[999D[J[35m•[39m  Cloning repository...[999D[J[35mo[39m  Cloning repository...[999D[J[35mO[39m  Cloning repository[999D[J[35m0[39m  Cloning repository[999D[J[32mo[39m  Repository cloned
+[?25h[?25l[90m|[39m
+[999D[J[32mo[39m  Found [32m1[39m skill
+[?25h[90m|[39m
+[34m•[39m  Skill: [36mmicrosoft-foundry[39m
+[90m|[39m
+[90m|[39m  [2mDeploy, evaluate, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization, prompt optimizer workflows, agent.yaml, dataset curation from traces. USE FOR: deploy agent to Foundry, hosted agent, create agent, invoke agent, evaluate agent, run batch eval, optimize prompt, improve prompt, prompt optimization, prompt optimizer, improve agent instructions, optimize agent instructions, optimize system prompt, deploy model, Foundry project, RBAC, role assignment, permissions, quota, capacity, region, troubleshoot agent, deployment failure, create dataset from traces, dataset versioning, eval trending, create AI Services, Cognitive Services, create Foundry resource, provision resource, knowledge index, agent monitoring, customize deployment, onboard, availability. DO NOT USE FOR: Azure Functions, App Service, general Azure deploy (use azure-deploy), general Azure prep (use azure-prepare).[22m
+
+[90m|[39m
+[32mo[39m  [0mInstallation Summary[0m [90m---------------+[39m
+[90m|[39m  [2m[22m                                    [90m|[39m
+[90m|[39m  [2m[36m~\.agents\skills\microsoft-foundry[39m[22m  [90m|[39m
+[90m|[39m  [2m  [32muniversal:[39m GitHub Copilot[22m         [90m|[39m
+[90m|[39m  [2m[22m                                    [90m|[39m
+[90m+--------------------------------------+[39m
+[90m|[39m
+[32mo[39m  [0mSecurity Risk Assessments[0m [90m---------------------------------------+[39m
+[90m|[39m  [2m[22m                                                                 [90m|[39m
+[90m|[39m  [2m                   [2mGen[22m[2m               [2mSocket[22m[2m            [2mSnyk[22m[2m[22m      [90m|[39m
+[90m|[39m  [2m[36mmicrosoft-foundry[39m  [32mSafe[39m              [32m0 alerts[39m          [33mMed Risk[39m[22m  [90m|[39m
+[90m|[39m  [2m[22m                                                                 [90m|[39m
+[90m|[39m  [2m[2mDetails:[22m[2m [2mhttps://skills.sh/microsoft/azure-skills[22m[2m[22m                [90m|[39m
+[90m|[39m  [2m[22m                                                                 [90m|[39m
+[90m+-------------------------------------------------------------------+[39m
+[?25l[90m|[39m
+[999D[J[35m•[39m  Installing skills[999D[J[32mo[39m  Installation complete
+[?25h
+[90m|[39m
+[32mo[39m  [0m[32mInstalled 1 skill[39m[0m [90m--------------------+[39m
+[90m|[39m  [2m[22m                                      [90m|[39m
+[90m|[39m  [2m[32m✓[39m ~\.agents\skills\microsoft-foundry[22m  [90m|[39m
+[90m|[39m  [2m  [32muniversal:[39m GitHub Copilot[22m           [90m|[39m
+[90m|[39m  [2m[22m                                      [90m|[39m
+[90m+----------------------------------------+[39m
+
+[90m|[39m
+[90m—[39m  [32mDone![39m[2m  Review skills before use; they run with full agent permissions.[22m

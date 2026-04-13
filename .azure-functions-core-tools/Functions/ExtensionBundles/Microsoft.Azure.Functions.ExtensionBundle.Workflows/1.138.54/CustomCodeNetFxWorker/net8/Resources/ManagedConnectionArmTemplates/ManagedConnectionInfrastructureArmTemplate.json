@@ -1,0 +1,58 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "type": "String"
+    },
+    "logicAppName": {
+      "type": "String"
+    },
+    "connectionName": {
+      "type": "String"
+    },
+    "connectionDisplayName": {
+      "type": "String"
+    },
+    "connectionAccessPolicySuffixName": {
+      "type": "String",
+      "defaultValue": "[newGuid()]"
+    }
+  },
+  "variables": {},
+  "resources": [
+    {
+      "apiVersion": "2016-06-01",
+      "name": "[parameters('connectionName')]",
+      "location": "[parameters('location')]",
+      "kind": "V2",
+      "type": "Microsoft.Web/connections",
+      "resources": [
+        {
+          "apiVersion": "2016-06-01",
+          "name": "[concat(parameters('connectionName'),'-',parameters('connectionAccessPolicySuffixName'))]",
+          "location": "[parameters('location')]",
+          "type": "accessPolicies",
+          "dependsOn": [
+            "[resourceId('Microsoft.Web/connections', parameters('connectionName'))]"
+          ],
+          "properties": {
+            "principal": {
+              "type": "ActiveDirectory",
+              "identity": {
+                "objectId": "[if(empty(parameters('logicAppName')), 'NoObjectId', reference(resourceId('Microsoft.Web/Sites', parameters('logicAppName')), '2019-08-01', 'Full').identity.principalId)]",
+                "tenantId": "[if(empty(parameters('logicAppName')), 'NoTenantId', reference(resourceId('Microsoft.Web/Sites', parameters('logicAppName')), '2019-08-01', 'Full').identity.tenantId)]"
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "displayName": "[parameters('connectionDisplayName')]",
+        "api": {
+          "id": "[concat('/subscriptions/',subscription().subscriptionId,'/providers/Microsoft.Web/locations/',parameters('location'),'/managedApis/ConnectorNamePlaceholder')]"
+        }
+      }
+    }
+  ]
+}

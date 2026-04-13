@@ -1,0 +1,9 @@
+# CI pipeline variables
+
+variables:
+
+  #  Logic App
+  logicAppName: 'TargetLogicAppName'
+
+  # Project artifacts
+  logicAppCIArtifactName: 'TargetLogicAppName_publish_artifact_ci'
